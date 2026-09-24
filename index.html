@@ -1,183 +1,140 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Activity 2.1.5 Class Demo</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body class="body">
-    <div class="container-lg min-vh-100">
-      <header>
-        <!--nav headers-->
-        <nav
-          class="navbar navbar-expand-lg nav-background-color"
-          data-bs-theme="dark"
-        >
-          <div class="container">
-            <!-- Website Brand -->
-            <a href="#" class="navbar-brand"
-              ><img
-                src="img/droplet.png"
-                alt="Water logo"
-                class="d-inline-block-align-text-top w-50"
-            /></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Activity 2.1.5 Class Demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</head>
 
-            <!-- Hamburger Menu Button -->
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navmenu"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Collapsible navbar menu with custom hover underline CSS animation -->
-            <div class="collapse navbar-collapse" id="navmenu">
-              <!--links-->
-              <ul class="navbar-nav ms-auto navbar-extra-styles">
-                <li class="nav-item">
-                  <a
-                    href="authors.html"
-                    class="nav-link hover-underline-animation nav-menu-item"
-                    >Authors</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    href="procedure.html"
-                    class="nav-link hover-underline-animation nav-menu-item"
-                    >Procedure</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    href="results.html"
-                    class="nav-link hover-underline-animation nav-menu-item"
-                    >Results</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-
-      <!--Showcase-->
-
-      <section class="showcase text-light p-2 text-center">
-        <div class="container" id="banner">
-          <div class="row">
-            <div class=" p-0 d-flex align-items-center">
-              <div class="container">
-                <h2 class="display-4" id="title-text">
-                  A Study of the Neural Network Reduction Through the Partial Enforcement of Tared Weights
-                </h2>
-                <!--display-4 will make the <h1> text stand out-->
-                <h2 class="display-7" id="title-smaller">Marcus Zhang and Craig Queenan</h2>
-                <br>
-              </div>
-            </div>
-        </div>
-      </section>
-      <!--Overview-->
-      <section class="overview text-dark p-2 text-left">
+<body class="body">
+  <div class="container-lg min-vh-100">
+    <header>
+      <!--nav headers-->
+      <nav class="navbar navbar-expand-lg nav-background-color" data-bs-theme="light">
         <div class="container">
-          <div class="row">
-            <div class="col-sm-4 p-3">
-              <img
-                src="img/19418.jpeg"
-                alt="Water Temperature Graph"
-                class="img-fluid"
-              />
-            </div>
+          <!-- Website Brand -->
+          <a href="#" class="navbar-brand"><img
+              src="img/black-triangle-logo-design-vector-28359166-removebg-preview.png" alt="Water logo"
+              class="logo" /></a>
 
-            <div class="col-sm-8 p-3">
-              <h1 class="overview-left-padding">Background</h1>
-              <!--Overview Left Padding-->
-              <p class="lead overview-font overview-left-padding">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                ipsum nisi, rhoncus non leo et, iaculis consequat erat.
-                Suspendisse lacinia quam eget purus lobortis, non facilisis
-                lacus elementum. Nullam ut posuere felis. Etiam viverra, massa
-                ut aliquam consectetur, nibh lectus feugiat lacus, eget pulvinar
-                libero ipsum id sapien. Vivamus fringilla nisi ac lorem egestas,
-                id condimentum tellus volutpat. Donec blandit, lorem eget
-                molestie rutrum, ex lorem tincidunt ligula, eu dignissim nulla
-                augue posuere ipsum. Etiam a viverra ligula, nec pulvinar lorem.
-              </p>
-            </div>
+          <!-- Hamburger Menu Button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapsible navbar menu with custom hover underline CSS animation -->
+          <div class="collapse navbar-collapse" id="navmenu">
+            <!--links-->
+            <ul class="navbar-nav ms-auto navbar-extra-styles">
+              <li class="nav-item">
+                <a href="authors.html" class="nav-link hover-underline-animation nav-menu-item">Authors</a>
+              </li>
+              <li class="nav-item">
+                <a href="procedure.html" class="nav-link hover-underline-animation nav-menu-item">Procedure</a>
+              </li>
+              <li class="nav-item">
+                <a href="results.html" class="nav-link hover-underline-animation nav-menu-item">Results</a>
+              </li>
+            </ul>
           </div>
-          <div class="row">
-            <div class="col-sm-8 p-3">
-              <h1 class="overview-left-padding">Rationale</h1>
-              <!--Overview Left Padding-->
-              <p class="lead overview-font overview-left-padding">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                ipsum nisi, rhoncus non leo et, iaculis consequat erat.
-                Suspendisse lacinia quam eget purus lobortis, non facilisis
-                lacus elementum. Nullam ut posuere felis.
-              </p>
-            </div>
+        </div>
+      </nav>
+    </header>
 
-            <div class="col-sm-4 p-3">
-              <img src="img/watermap.jpg" alt="Water Map" class="img-fluid" />
+    <!--Showcase-->
+
+    <section class="showcase text-light p-2 text-center">
+      <div class="container" id="banner">
+        <div class="row">
+          <div class=" p-0 d-flex align-items-center">
+            <div class="container" style="background-color: rgba(255, 255, 255, 0.9)">
+              <h2 class="display-4" id="title-text">
+                A Study of the Neural Network Reduction Through the Partial Enforcement of Tared Weights
+              </h2>
+              <!--display-4 will make the <h1> text stand out-->
+              <h2 class="display-7" id="title-smaller">Marcus Zhang</h2>
+              <br>
             </div>
           </div>
         </div>
+    </section>
+    <!--Overview-->
+    <section class="overview text-dark p-2 text-left">
+      <div class="container">
         <div class="row">
           <div class="col-sm-4 p-3">
-            <img
-              src="img/phytoplankton-pnas.jpg"
-              alt="Water Temperature Graph"
-              class="img-fluid"
-            />
+            <img src="img/dropout.png" alt="Dropout Model Figure" class="img-fluid" />
           </div>
 
           <div class="col-sm-8 p-3">
             <h1 class="overview-left-padding">Background</h1>
             <!--Overview Left Padding-->
             <p class="lead overview-font overview-left-padding">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ipsum
-              nisi, rhoncus non leo et, iaculis consequat erat. Suspendisse
-              lacinia quam eget purus lobortis, non facilisis lacus elementum.
-              Nullam ut posuere felis. Etiam viverra, massa ut aliquam
-              consectetur, nibh lectus feugiat lacus, eget pulvinar libero ipsum
-              id sapien. Vivamus fringilla nisi ac lorem egestas, id condimentum
-              tellus volutpat. Donec blandit, lorem eget molestie rutrum, ex
-              lorem tincidunt ligula, eu dignissim nulla augue posuere ipsum.
-              Etiam a viverra ligula, nec pulvinar lorem.
+              Neural networks, versatile AI models inspired by the human brain, excel in numerous tasks such as
+              image recognition and natural language processing, but fall short in efficiency and effectiveness
+              due to an issue of <strong>overfitting, </strong>which occurs mainly due to the excessive parameter
+              count in the network, causing models to overadapt during training and thus underperform when seeing new
+              data.
+              Many solutions have been proposed to address this
+              issue, including those of Dropout (2012, shown in the left image) and Dropconnect (2013), which utilize the partial
+              pruning of weights to reduce the overall neural network complexity.
             </p>
           </div>
         </div>
-      </section>
+        <div class="row">
+          <div class="col-sm-7 p-3">
+            <h1 class="overview-left-padding">Rationale</h1>
+            <!--Overview Left Padding-->
+            <p class="lead overview-font overview-left-padding">
+              Despite the large amount of effective solutions proposed to reduce levels of overfitting in neural networks (pruning and non-pruning), 
+              there remains a lack of comprehensive research and comparisons between methods on a general scale of tasks. Furthermore, a lack of 
+              hybrid methods which may strategically incorporate the strengths of Dropout and Dropconnect layers into one model has been observed
+              and studied, which may outperform conventional full Dropout or Dropconnect models. 
+            </p>
+          </div>
 
-      <!--Footer-->
-      <footer class="p-5 footer text-light text-center position-relative">
-        <div class="container">
-          <p class="lead">Copyright &copy; SE 2026 Bootstrap Demo</p>
-          <a href="#" class="position-absolute bottom-0 end-0 p-5">
-            <i class="bi bi-arrow-up-circle h2 icon-white"></i>
-          </a>
+          <div class="col-sm-5 p-3">
+            <img src="img/graph_figures.png" alt="Graphical results obtained" class="img-fluid" />
+          </div>
         </div>
-      </footer>
-    </div>
-  </body>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 p-3">
+          <img src="img/MNIST.webp" alt="MNIST graphical examples" class="img-fluid" />
+        </div>
+
+        <div class="col-sm-8 p-3">
+          <h1 class="overview-left-padding">Methodology / Procedures</h1>
+          <!--Overview Left Padding-->
+          <p class="lead overview-font overview-left-padding">
+            Using the MNIST dataset (Displayed left) as a universal benchmark image-classification task, a series
+            of neural networks implemented with non-drop methods, Dropout methods, and Dropconnect methods, were
+            trained and tested with equivalent parameters to ensure fair comparisons between methods. Each model
+            type was trained 10 times, and eventual epoch data was gathered and statistical analysis was performed
+            to find the most effective method of overfitting reduction.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="p-5 footer text-light text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; SE 2026 Bootstrap Demo</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h2 icon-white"></i>
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>

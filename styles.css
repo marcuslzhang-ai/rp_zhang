@@ -14,30 +14,48 @@
 }
 
 .body{
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to top, #618B9A, #FAEFED, #FFD4D1);
 }
 
 .chartjs-sample{
     background-color: #d1f2ff;
 }
+.container-lg {
+    background-color: rgba(255, 255, 255, 0.5);
+}
 
 .footer{                
-    background-color: #b6a9ac;
+    background-color: #407D90;
 }
 
 .icon-white{            /* Arrow icon at bottom of page */
     color: #fcfafa;
 }
 
+.img-fluid{
+    display: block;
+    width: auto;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 10px solid white;
+}
+
+.logo {
+    width: 55px;
+    height: auto;
+    display: inline-block;
+}
+
 .nav-background-color{   /* navbar background color */
-    background-color: #050505;
+    background-color: #eeaaa4;
 }
 
 .nav-menu-item{               /* navbar link text properties */
     font-size:25;
     margin-left: 10px;
     margin-right: 10px;
-    color: #ffffff;
+    color: #000;
 }
 
 .navbar-extra-styles{           /* navbar link text properties */
@@ -48,7 +66,7 @@
 }
 
 .overview{
-    background-color: #000000;
+    background-color: none;
 }
 
 .overview-left-padding{
@@ -60,44 +78,47 @@
 }
 
 .procedure{
-    background-color: #000000;
+    background-color: #ffffff;
     padding: 1px;
 }
 
 .showcase{
-    background-color: #101010; /*#0096c7*/
+    background-color: none; /*#0096c7*/
     padding: 0;
 }
 
 p {
-    color: #ffffff;
+    color: #000000;
 }
 
 h1 {
-    color: #ffffff;
+    color: #000000;
 }
 
 h2 {
-    color: #ffffff;
+    color: #000000;
 }
 
 /* ----------------- ID CSS ----------------- */
 
 #banner {
+    display: flex;
     margin: 0;
     padding: 0;
-    background-image: url("https://tse3.mm.bing.net/th/id/OIP.nLmJaOxHS7_HPqSWRvo45gHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #title-text{
     display: flex;
-    height: 250px; 
+    height: 240px; 
     align-items: center; 
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 #title-smaller{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 /* -----------------Underline Animation CSS -----------------*/
@@ -126,7 +147,7 @@ h2 {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #fcfcfc;
+    background-color: #000000;
     /*transform-origin: bottom right;*/
     transition: transform 0.35s ease-out;
 }
