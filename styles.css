@@ -6,7 +6,7 @@
 }
 
 .about-team{
-    color:rgb(250, 250, 250)
+    color:rgb(0, 0, 0);
 }
 
 .authors{
@@ -39,6 +39,10 @@
     margin-left: auto;
     margin-right: auto;
     outline: 10px solid white;
+}
+
+.footing {
+    color: #FFFFFF;
 }
 
 .logo {
@@ -85,6 +89,10 @@
 .showcase{
     background-color: none; /*#0096c7*/
     padding: 0;
+}
+
+tr {
+    background-color: #ffffff;
 }
 
 p {
