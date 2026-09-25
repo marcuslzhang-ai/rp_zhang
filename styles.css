@@ -38,7 +38,13 @@
     height: 300px;
     margin-left: auto;
     margin-right: auto;
+    transform: scale(1);
     outline: 10px solid white;
+    transition: transform 0.5s ease-in-out;
+}
+
+.img-fluid:hover{
+    transform: scale(1.1);
 }
 
 .footing {
@@ -49,6 +55,12 @@
     width: 55px;
     height: auto;
     display: inline-block;
+    filter: brightness(100%);
+    transition: filter 0.5s ease-in-out;
+}
+
+.logo:hover {
+    filter: brightness(800%);
 }
 
 .nav-background-color{   /* navbar background color */
@@ -145,7 +157,7 @@ h2 {
     display: inline-block;
     position: relative;
     /*color: #0087ca;*/
-  }
+}
   
 .hover-underline-animation:after {
     content: '';
