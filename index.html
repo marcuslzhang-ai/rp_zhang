@@ -78,14 +78,12 @@
             <h1 class="overview-left-padding">Background</h1>
             <!--Overview Left Padding-->
             <p class="lead overview-font overview-left-padding">
-              Neural networks, versatile AI models inspired by the human brain, excel in numerous tasks such as
+              <strong>Neural networks</strong> excel in numerous tasks such as
               image recognition and natural language processing, but fall short in efficiency and effectiveness
-              due to an issue of <strong>overfitting, </strong>which occurs mainly due to the excessive parameter
-              count in the network, causing models to overadapt during training and thus underperform when seeing new
-              data.
+              due to <strong>overfitting, </strong>which occurs mainly due to <strong>overadaptations</strong> during training. Thus, these networks underperform when seeing new
+              data.<br><br>
               Many solutions have been proposed to address this
-              issue, including those of Dropout (2012) and Dropconnect (2013), which utilize the partial
-              pruning of weights to reduce the overall neural network complexity.
+              issue, including those of <strong>Dropout (2012)</strong> and <strong>Dropconnect (2013)</strong>, which utilize partial weight pruning to reduce overall neural network complexity.
             </p>
           </div>
         </div>
@@ -94,9 +92,10 @@
             <h1 class="overview-left-padding">Rationale</h1>
             <!--Overview Left Padding-->
             <p class="lead overview-font overview-left-padding">
-              Despite the large amount of effective solutions proposed to reduce levels of overfitting in neural networks (pruning and non-pruning), 
-              there remains a lack of comprehensive research and comparisons between methods on a general scale of tasks. Furthermore, a lack of 
-              hybrid methods which may strategically incorporate the strengths of Dropout and Dropconnect layers into one model has been observed
+              Despite the large amount of proposals to reduce levels of overfitting in neural networks (pruning and non-pruning), 
+              there remains a <strong>lack of comprehensive research and comparisons</strong> between such methods.
+              <br><br>A lack of 
+              <strong>strategically optimal hybrid model proposals</strong> has been observed
               and studied, which may outperform conventional full Dropout or Dropconnect models. 
             </p>
           </div>
@@ -115,10 +114,9 @@
           <h1 class="overview-left-padding">Methodology / Procedures</h1>
           <!--Overview Left Padding-->
           <p class="lead overview-font overview-left-padding">
-            Using the MNIST dataset (Displayed left) as a universal benchmark image-classification task, a series
-            of neural networks implemented with non-drop methods, Dropout methods, and Dropconnect methods, were
-            trained and tested with equivalent parameters to ensure fair comparisons between methods. Each model
-            type was trained 10 times, and eventual epoch data was gathered and statistical analysis was performed
+            Using the <strong>MNIST</strong> dataset (Displayed left) as a universal benchmark image-classification task, neural networks implemented with differing pruning methods were
+            trained and tested.<br><br> Each model
+            was trained <strong>10 times</strong>, and eventual epoch data was gathered and statistical analysis was performed
             to find the most effective method of overfitting reduction.
           </p>
         </div>
